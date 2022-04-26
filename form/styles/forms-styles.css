@@ -1,0 +1,187 @@
+body{
+    display: flex;
+}
+
+.titulo-principal{
+    padding: 0.2em;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    text-align: center;
+}
+
+.box-titulo{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.372);
+    max-width: max-content;
+    margin-left: 1em;
+    margin-top: 30vh;
+}
+
+
+
+.formulario-estilo{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.input{
+    margin-left: 2em;
+}
+
+.subtitulo-datos{
+    color: azure
+}
+
+.bloque-1, .bloque-2{
+    background-color: rgba(0, 0, 0, 0.384);
+    overflow: hidden;
+    padding: 1em 4em;
+    border-radius: 0.4em;
+}
+
+.bloque-2{
+    margin-top: 1.5em;
+}
+
+.bloque-3{
+    background-color: rgba(0, 0, 0, 0.384);
+    overflow: hidden;
+    border-radius: 0.4em;
+    padding-left: 1em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 385px;
+    margin-left: 0.5em;
+    height: min-content;
+}
+
+
+.label{
+    color: azure;
+    margin-top: 0.2em;
+}
+
+.label-2{
+    color: azure;
+}
+
+.input-top{
+    margin-top: 0.5em;
+}
+
+.flex-forms{
+    display: flex;
+}
+
+.boton{
+    margin-left: 15em;
+}
+
+
+@media (max-width: 1199px) {
+    body{
+        width: 100%;
+        height: 100%;
+        display: grid;
+    }
+    
+.titulo-principal{
+    padding: 0.2em;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    text-align: center;
+}
+
+header{
+    width: 100vw;
+}
+
+.graduado{
+    height: 50px;
+    width: 50px;
+}
+
+.box-titulo{
+    margin-top: 1em;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.372);
+    height: min-content;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.subtitulo-datos{
+    font-size: 20px;
+}
+
+
+.formulario-estilo{
+    margin-top: 2em;
+}
+
+.input{
+    margin-left: 1em;
+}
+
+.subtitulo-datos{
+    color: azure
+}
+
+.bloque-1, .bloque-2{
+    background-color: rgba(0, 0, 0, 0.384);
+    overflow: hidden;
+    padding: 10px 20px;
+    border-radius: 0.4em;
+}
+
+.bloque-2{
+    margin-top: 1.5em;
+}
+
+.bloque-3{
+    background-color: rgba(0, 0, 0, 0.384);
+    overflow: hidden;
+    border-radius: 0.4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 400px;
+    margin-left: -1px;
+    height: min-content;
+    margin-top: 25px;
+}
+
+
+.label{
+    color: azure;
+    margin-top: 0.2em;
+}
+
+.label-2{
+    color: azure;
+}
+
+.input-top{
+    margin-top: 0.5em;
+}
+
+.flex-forms{
+    display: block;
+    width: 80vw;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.boton{
+    margin-left: 15em;
+}
+        
+  }
+

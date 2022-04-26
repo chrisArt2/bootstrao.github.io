@@ -1,0 +1,16 @@
+.graduado{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+
+.formulario{
+    width: 25em;
+    margin-top: 10em;
+    margin-left: 10em;
+}
+
